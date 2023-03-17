@@ -11,4 +11,4 @@
 #.idea config
 /.idea
 #build c++
-/c++/cmake-build-debug/*.*
+/c++/cmake-build-debug/
