@@ -12,4 +12,3 @@
 /.idea
 #build c++
 /c++/cmake-build-debug/*.*
-/learn/c++/cmake-build-debug/

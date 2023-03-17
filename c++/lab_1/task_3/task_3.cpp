@@ -14,13 +14,13 @@ int main() {
     auto dataFromObmen = obmen1(a,b);
     a = std::get<0>(dataFromObmen);
     b = std::get<1>(dataFromObmen);
-    std::cout << "после обмена 1: a=" << a << " b=" << b << std::endl;
+    std::cout << "after the exchange 1: a=" << a << " b=" << b << std::endl;
     //Вызов obmen2(int *, int *)
     obmen2(&a, &b);
-    std::cout << "после обмена 2: a=" << a << " b=" << b << std::endl;
+    std::cout << "after the exchange 2: a=" << a << " b=" << b << std::endl;
     //Вызов obmen3(int &, int &)
     obmen3(a, b);
-    std::cout << "после обмена 3: a=" << a << " b=" << b << std::endl;
+    std::cout << "after the exchange 3: a=" << a << " b=" << b << std::endl;
     return 0;
 }
 std::tuple<int, int> obmen1(int x, int n) {return {n, x};}
