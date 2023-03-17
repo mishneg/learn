@@ -1,4 +1,4 @@
-# Install script for directory: I:/learn
+# Install script for directory: I:/learn/c++
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,17 +39,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("I:/learn/cmake-build-debug/lab_1/task_1/cmake_install.cmake")
+  include("I:/learn/c++/cmake-build-debug/lab_1/task_1/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("I:/learn/cmake-build-debug/lab_1/task_2/cmake_install.cmake")
+  include("I:/learn/c++/cmake-build-debug/lab_1/task_2/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("I:/learn/cmake-build-debug/lab_1/task_3/cmake_install.cmake")
+  include("I:/learn/c++/cmake-build-debug/lab_1/task_3/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "I:/learn/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "I:/learn/c++/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

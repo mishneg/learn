@@ -1,4 +1,4 @@
-# Install script for directory: I:/learn/lab_1/task_3
+# Install script for directory: I:/learn/c++/lab_1/task_3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
